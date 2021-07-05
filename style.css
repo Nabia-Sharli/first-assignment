@@ -1,0 +1,115 @@
+body{
+    font-family: 'Noto Serif', serif;
+    margin: 0%; 
+    padding: 0%;
+    
+}
+/*First area   */
+.food-color{
+    color:red;
+    font-size: 50px;
+}
+.background {
+    height:600px;
+    margin-top: 0%;
+    padding-top: 0%;
+    background-image: url(images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header-area{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.header-area p{
+    color: aquamarine;
+}
+.button1{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    font-weight: 400;
+    border-radius: 20px;
+}
+/*part 2*/
+.description{
+    display: flex;
+}
+.half{
+    width: 50%;
+    margin-top: 0%;
+    font-size: 30px;
+    padding-left: 20px;
+
+}
+.half img{
+    width: 80%;
+}
+.button2{
+    text-decoration: none;
+    background-image: linear-gradient(#f953c6,#b91d73);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.description{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin:0;
+}
+/*part 3.........*/
+.about-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+}
+
+/*part 4*/
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.card{
+    background: white;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+.card-image{
+    height: 180px ;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 30px;
+
+}
+.card-1{
+    background-image: url(images/Project\ Cover.jpg);
+}
+.card-2{
+    background-image: url(images/Project\ Cover.png);
+}
+.card-3{
+    background-image: url(images/Project\ Cover8.png);
+}
+
+/*part 5*/
+.finishing-area{
+    text-align: center;
+    height: 200px;
+    color: white;
+    margin-top: 25%;
+    background-color: black;
+
+}
