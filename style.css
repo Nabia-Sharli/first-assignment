@@ -41,6 +41,9 @@ body{
     border-radius: 20px;
 }
 /*part 2*/
+#purple-color{
+    color: purple;
+}
 .description{
     display: flex;
 }
@@ -49,16 +52,24 @@ body{
     margin-top: 0%;
     font-size: 30px;
     padding-left: 20px;
+    padding-top: 20px;
 
 }
 .half img{
     width: 80%;
+    padding-top: 40px;
+    padding-left: 20px;
 }
 .button2{
     text-decoration: none;
-    background-image: linear-gradient(#f953c6,#b91d73);
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(#bc4e9c,#f80759);
     padding: 10px 30px;
     border-radius: 15px;
+   
+    
 }
 .description{
     background-image: url(images/top-banner.png);
@@ -67,11 +78,29 @@ body{
 }
 /*part 3.........*/
 .about-area{
-    background-image: url(images/exp-bg.png);
-    background-position: left;
+    background-image: url(images/bg-image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    padding-top: 10%;
+    padding-left: 20px;
+    font-size: 25px;
+    color: grey;
+
 }
 
 /*part 4*/
+.my-recipies h1 {
+    font-size: 50px;
+    text-align: center;
+}
+.para{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
 .container{
     display: flex;
     justify-content: center;
@@ -107,9 +136,10 @@ body{
 /*part 5*/
 .finishing-area{
     text-align: center;
-    height: 200px;
+    height: 170px;
     color: white;
-    margin-top: 25%;
-    background-color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color:darkslategrey;
 
 }
