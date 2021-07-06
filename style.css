@@ -10,34 +10,42 @@ body{
     font-size: 50px;
 }
 .background {
-    height:600px;
+    height:650px;
     margin-top: 0%;
     padding-top: 0%;
-    background-image: url(images/bg-image.jpg);
+    background-image: url(images/header.bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 .header-area{
-    text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 15%;
+    margin-left: 40%;
+    margin-top: 5%;
 
 }
-.header-area p{
-    color: aquamarine;
+.header-area h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.header-area h4{
+    text-align: center;
+    margin-top: 10px;
 }
 .button1{
+   
     text-decoration: none;
     text-transform: uppercase;
     background-color: white;
-    color: black;
+    color:#e74c3c;
+    margin-left: 150px;
     padding: 10px 40px;
-    font-weight: 400;
+    font-weight: 700;
     border-radius: 20px;
 }
 /*part 2*/
@@ -86,12 +94,13 @@ body{
     padding-top: 10%;
     padding-left: 20px;
     font-size: 25px;
-    color: grey;
+    color: gray;
 
 }
 
 /*part 4*/
 .my-recipies h1 {
+    color: gray;
     font-size: 50px;
     text-align: center;
 }
@@ -133,6 +142,42 @@ body{
     background-image: url(images/Project\ Cover8.png);
 }
 
+
+
+.subscriber{
+    padding-bottom: 100px;
+}
+
+.sub{
+    display: flex;
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px gray;
+    border-radius: 15px;
+    padding: 1%;
+}
+
+.sub div{
+    color: #2d3436;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sub div h1{
+    font-size: 40px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.sub div p{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.sub div{
+    margin: 0 8%;
+}
+
 /*part 5*/
 .finishing-area{
     text-align: center;
@@ -140,6 +185,6 @@ body{
     color: white;
     font-size: 20px;
     padding-top: 20px;
-    background-color:darkslategrey;
+    background-color:#222f3e;
 
 }
