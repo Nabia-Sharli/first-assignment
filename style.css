@@ -2,13 +2,8 @@ body{
     font-family: 'Noto Serif', serif;
     margin: 0%; 
     padding: 0%;
-    
 }
-/*First area   */
-.food-color{
-    color:red;
-    font-size: 50px;
-}
+/*Header Part  */
 .background {
     height:650px;
     margin-top: 0%;
@@ -16,7 +11,6 @@ body{
     background-image: url(images/header.bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .header-area{
     font-size: 20px;
@@ -26,7 +20,6 @@ body{
     left: 15%;
     margin-left: 40%;
     margin-top: 5%;
-
 }
 .header-area h1{
     font-size: 100px;
@@ -35,20 +28,20 @@ body{
 }
 .header-area h4{
     text-align: center;
+    font-size: 30px;
     margin-top: 10px;
 }
 .button1{
-   
     text-decoration: none;
     text-transform: uppercase;
-    background-color: white;
-    color:#e74c3c;
+    background-image: linear-gradient(#bc4e9c,#f80759);
+    color:white;
     margin-left: 150px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-weight: 700;
     border-radius: 20px;
 }
-/*part 2*/
+/*Description Area*/
 #purple-color{
     color: purple;
 }
@@ -61,7 +54,6 @@ body{
     font-size: 30px;
     padding-left: 20px;
     padding-top: 20px;
-
 }
 .half img{
     width: 80%;
@@ -71,20 +63,19 @@ body{
 .button2{
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 20px;
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     background-image: linear-gradient(#bc4e9c,#f80759);
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 15px;
-   
-    
 }
 .description{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     margin:0;
 }
-/*part 3.........*/
+/*About Area*/
 .about-area{
     background-image: url(images/bg-image1.jpg);
     background-repeat: no-repeat;
@@ -95,10 +86,8 @@ body{
     padding-left: 20px;
     font-size: 25px;
     color: gray;
-
 }
-
-/*part 4*/
+/*Recipies Area*/
 .my-recipies h1 {
     color: gray;
     font-size: 50px;
@@ -113,8 +102,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
 .card{
     background: white;
@@ -130,7 +118,6 @@ body{
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 30px;
-
 }
 .card-1{
     background-image: url(images/Project\ Cover.jpg);
@@ -141,13 +128,10 @@ body{
 .card-3{
     background-image: url(images/Project\ Cover8.png);
 }
-
-
-
+/*subcriber Area*/
 .subscriber{
     padding-bottom: 100px;
 }
-
 .sub{
     display: flex;
     background: #fff;
@@ -157,29 +141,24 @@ body{
     border-radius: 15px;
     padding: 1%;
 }
-
 .sub div{
     color: #2d3436;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .sub div h1{
     font-size: 40px;
     margin: 0;
     font-weight: 700;
 }
-
 .sub div p{
     font-weight: 100;
     font-size: 15px;
 }
-
 .sub div{
     margin: 0 8%;
 }
-
-/*part 5*/
-.finishing-area{
+/*Footer Area*/
+.footer-area{
     text-align: center;
     height: 170px;
     color: white;
